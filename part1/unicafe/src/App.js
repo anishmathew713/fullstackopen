@@ -21,7 +21,9 @@ const StatisticLine = (props) => {
 const Statistics = (props) => {
   if (props.total === 0) {
     return (
-      <div><p>No feedback given</p>
+      <div>
+        <h1>statistics</h1>
+        <p>No feedback given</p>
       </div>
     )
   }
